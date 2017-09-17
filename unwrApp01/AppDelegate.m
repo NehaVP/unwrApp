@@ -11,12 +11,32 @@
 @interface AppDelegate ()
 
 @end
+@import UIKit;
+@import Firebase;
+@import FirebaseDatabase;
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [FIRApp configure];
+    _ref = [[FIRDatabase database] reference];
+    
+     [_ref observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
+        NSDictionary *postDict = snapshot.value;
+         for(NSString *key in [postDict allKeys]) {
+             NSLog(@"%@",[postDict objectForKey:key]);
+         }
+    }];
+    
+    
+    
+    
+    
+    
+    
+    
     return YES;
 }
 

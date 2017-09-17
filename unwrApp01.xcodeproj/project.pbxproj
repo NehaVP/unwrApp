@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3293D8969A354C6970DAFABA /* libPods-unwrApp01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F7D6FD3348F333236EB3F1 /* libPods-unwrApp01.a */; };
 		677952111F6D96E5006202D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 677952101F6D96E5006202D3 /* main.m */; };
 		677952141F6D96E5006202D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 677952131F6D96E5006202D3 /* AppDelegate.m */; };
 		677952171F6D96E5006202D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677952161F6D96E5006202D3 /* ViewController.m */; };
@@ -15,6 +16,13 @@
 		6779521F1F6D96E5006202D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6779521D1F6D96E5006202D3 /* LaunchScreen.storyboard */; };
 		6779522A1F6D96E5006202D3 /* unwrApp01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 677952291F6D96E5006202D3 /* unwrApp01Tests.m */; };
 		677952351F6D96E5006202D3 /* unwrApp01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 677952341F6D96E5006202D3 /* unwrApp01UITests.m */; };
+		677952441F6D9A79006202D3 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677952431F6D9A79006202D3 /* WelcomeViewController.m */; };
+		677952471F6D9A88006202D3 /* DietaryRestrictionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677952461F6D9A88006202D3 /* DietaryRestrictionViewController.m */; };
+		6779524A1F6DA446006202D3 /* FoodInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677952491F6DA446006202D3 /* FoodInformationViewController.m */; };
+		67DF903D1F6DC171007AC556 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 67DF903C1F6DC171007AC556 /* tessdata */; };
+		67DF90DB1F6DED94007AC556 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67DF90DA1F6DED94007AC556 /* GoogleService-Info.plist */; };
+		8A15F63EE5AF5DBA813715C9 /* libPods-unwrApp01Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3F2AD37EA7619A28A49B11 /* libPods-unwrApp01Tests.a */; };
+		AAA84CED72478B3E6170CEEA /* libPods-unwrApp01UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B02C689AC376D04300E720B /* libPods-unwrApp01UITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BC57A85D110CA763262B270 /* Pods-unwrApp01UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unwrApp01UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unwrApp01UITests/Pods-unwrApp01UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F3F2AD37EA7619A28A49B11 /* libPods-unwrApp01Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unwrApp01Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F7D6FD3348F333236EB3F1 /* libPods-unwrApp01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unwrApp01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B02C689AC376D04300E720B /* libPods-unwrApp01UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unwrApp01UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6779520C1F6D96E5006202D3 /* unwrApp01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unwrApp01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		677952101F6D96E5006202D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		677952121F6D96E5006202D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,23 @@
 		677952301F6D96E5006202D3 /* unwrApp01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unwrApp01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		677952341F6D96E5006202D3 /* unwrApp01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = unwrApp01UITests.m; sourceTree = "<group>"; };
 		677952361F6D96E5006202D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677952421F6D9A79006202D3 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		677952431F6D9A79006202D3 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		677952451F6D9A88006202D3 /* DietaryRestrictionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DietaryRestrictionViewController.h; sourceTree = "<group>"; };
+		677952461F6D9A88006202D3 /* DietaryRestrictionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DietaryRestrictionViewController.m; sourceTree = "<group>"; };
+		677952481F6DA446006202D3 /* FoodInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodInformationViewController.h; sourceTree = "<group>"; };
+		677952491F6DA446006202D3 /* FoodInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodInformationViewController.m; sourceTree = "<group>"; };
+		67DF903C1F6DC171007AC556 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = "../../Tesseract Extra Files/OCR-iOS-Example-master/OCR-Example/tessdata"; sourceTree = "<group>"; };
+		67DF90D41F6DC3DC007AC556 /* baseapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = baseapi.h; path = "../../Tesseract Files/tesseract-ios-master/tesseract-ios-lib/include/tesseract/baseapi.h"; sourceTree = "<group>"; };
+		67DF90D51F6DC3FA007AC556 /* environ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = environ.h; path = "../../Tesseract Files/tesseract-ios-master/tesseract-ios-lib/include/leptonica/environ.h"; sourceTree = "<group>"; };
+		67DF90D61F6DC4A4007AC556 /* pix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pix.h; path = "../../Tesseract Files/tesseract-ios-master/tesseract-ios-lib/include/leptonica/pix.h"; sourceTree = "<group>"; };
+		67DF90D71F6DE411007AC556 /* unwrApp01.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = unwrApp01.entitlements; sourceTree = "<group>"; };
+		67DF90DA1F6DED94007AC556 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88F9EED7166757A76E3209FA /* Pods-unwrApp01UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unwrApp01UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unwrApp01UITests/Pods-unwrApp01UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B2BFACC5472E57185893788 /* Pods-unwrApp01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unwrApp01.release.xcconfig"; path = "Pods/Target Support Files/Pods-unwrApp01/Pods-unwrApp01.release.xcconfig"; sourceTree = "<group>"; };
+		996E3C28D191E420775D4086 /* Pods-unwrApp01Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unwrApp01Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unwrApp01Tests/Pods-unwrApp01Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B08F7C5C4CDC3822CA4703BC /* Pods-unwrApp01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unwrApp01Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unwrApp01Tests/Pods-unwrApp01Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C52B9EEBF0A9D98C2B6D3C66 /* Pods-unwrApp01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unwrApp01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unwrApp01/Pods-unwrApp01.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3293D8969A354C6970DAFABA /* libPods-unwrApp01.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A15F63EE5AF5DBA813715C9 /* libPods-unwrApp01Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA84CED72478B3E6170CEEA /* libPods-unwrApp01UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +117,8 @@
 				677952281F6D96E5006202D3 /* unwrApp01Tests */,
 				677952331F6D96E5006202D3 /* unwrApp01UITests */,
 				6779520D1F6D96E5006202D3 /* Products */,
+				88DA3CC3B2763A55CD284F45 /* Pods */,
+				9A8A2164B002B89A210B5709 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +135,10 @@
 		6779520E1F6D96E5006202D3 /* unwrApp01 */ = {
 			isa = PBXGroup;
 			children = (
+				67DF90D71F6DE411007AC556 /* unwrApp01.entitlements */,
 				677952121F6D96E5006202D3 /* AppDelegate.h */,
+				67DF90DA1F6DED94007AC556 /* GoogleService-Info.plist */,
+				67DF903C1F6DC171007AC556 /* tessdata */,
 				677952131F6D96E5006202D3 /* AppDelegate.m */,
 				677952151F6D96E5006202D3 /* ViewController.h */,
 				677952161F6D96E5006202D3 /* ViewController.m */,
@@ -110,6 +147,15 @@
 				6779521D1F6D96E5006202D3 /* LaunchScreen.storyboard */,
 				677952201F6D96E5006202D3 /* Info.plist */,
 				6779520F1F6D96E5006202D3 /* Supporting Files */,
+				677952421F6D9A79006202D3 /* WelcomeViewController.h */,
+				677952431F6D9A79006202D3 /* WelcomeViewController.m */,
+				67DF90D41F6DC3DC007AC556 /* baseapi.h */,
+				67DF90D51F6DC3FA007AC556 /* environ.h */,
+				67DF90D61F6DC4A4007AC556 /* pix.h */,
+				677952451F6D9A88006202D3 /* DietaryRestrictionViewController.h */,
+				677952461F6D9A88006202D3 /* DietaryRestrictionViewController.m */,
+				677952481F6DA446006202D3 /* FoodInformationViewController.h */,
+				677952491F6DA446006202D3 /* FoodInformationViewController.m */,
 			);
 			path = unwrApp01;
 			sourceTree = "<group>";
@@ -140,6 +186,29 @@
 			path = unwrApp01UITests;
 			sourceTree = "<group>";
 		};
+		88DA3CC3B2763A55CD284F45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C52B9EEBF0A9D98C2B6D3C66 /* Pods-unwrApp01.debug.xcconfig */,
+				8B2BFACC5472E57185893788 /* Pods-unwrApp01.release.xcconfig */,
+				996E3C28D191E420775D4086 /* Pods-unwrApp01Tests.debug.xcconfig */,
+				B08F7C5C4CDC3822CA4703BC /* Pods-unwrApp01Tests.release.xcconfig */,
+				88F9EED7166757A76E3209FA /* Pods-unwrApp01UITests.debug.xcconfig */,
+				1BC57A85D110CA763262B270 /* Pods-unwrApp01UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A8A2164B002B89A210B5709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56F7D6FD3348F333236EB3F1 /* libPods-unwrApp01.a */,
+				4F3F2AD37EA7619A28A49B11 /* libPods-unwrApp01Tests.a */,
+				5B02C689AC376D04300E720B /* libPods-unwrApp01UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 677952391F6D96E5006202D3 /* Build configuration list for PBXNativeTarget "unwrApp01" */;
 			buildPhases = (
+				13FBE61A7B46D9A80D5F1468 /* [CP] Check Pods Manifest.lock */,
 				677952081F6D96E5006202D3 /* Sources */,
 				677952091F6D96E5006202D3 /* Frameworks */,
 				6779520A1F6D96E5006202D3 /* Resources */,
+				B88C645B68609DBBC0247976 /* [CP] Embed Pods Frameworks */,
+				BEA42581A485DC466715C53E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6779523C1F6D96E5006202D3 /* Build configuration list for PBXNativeTarget "unwrApp01Tests" */;
 			buildPhases = (
+				D35DC2B3321B862BA0712A7D /* [CP] Check Pods Manifest.lock */,
 				677952211F6D96E5006202D3 /* Sources */,
 				677952221F6D96E5006202D3 /* Frameworks */,
 				677952231F6D96E5006202D3 /* Resources */,
+				5D6BDDD6F71A6F4968765384 /* [CP] Embed Pods Frameworks */,
+				660DFB6A03E2D9A283C85092 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6779523F1F6D96E5006202D3 /* Build configuration list for PBXNativeTarget "unwrApp01UITests" */;
 			buildPhases = (
+				FE6507BA66155D0490DAD02F /* [CP] Check Pods Manifest.lock */,
 				6779522C1F6D96E5006202D3 /* Sources */,
 				6779522D1F6D96E5006202D3 /* Frameworks */,
 				6779522E1F6D96E5006202D3 /* Resources */,
+				ED5B8D30FC6654A50AC77E39 /* [CP] Embed Pods Frameworks */,
+				9A301E39795DC884BCBDB701 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +287,14 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 8U439925LN;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 					677952241F6D96E5006202D3 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -251,7 +337,9 @@
 			files = (
 				6779521F1F6D96E5006202D3 /* LaunchScreen.storyboard in Resources */,
 				6779521C1F6D96E5006202D3 /* Assets.xcassets in Resources */,
+				67DF90DB1F6DED94007AC556 /* GoogleService-Info.plist in Resources */,
 				6779521A1F6D96E5006202D3 /* Main.storyboard in Resources */,
+				67DF903D1F6DC171007AC556 /* tessdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,13 +359,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13FBE61A7B46D9A80D5F1468 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-unwrApp01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D6BDDD6F71A6F4968765384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unwrApp01Tests/Pods-unwrApp01Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		660DFB6A03E2D9A283C85092 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unwrApp01Tests/Pods-unwrApp01Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A301E39795DC884BCBDB701 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unwrApp01UITests/Pods-unwrApp01UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B88C645B68609DBBC0247976 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unwrApp01/Pods-unwrApp01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA42581A485DC466715C53E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-unwrApp01/Pods-unwrApp01-resources.sh",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GINInviteResources.bundle",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GPPACLPickerResources.bundle",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unwrApp01/Pods-unwrApp01-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D35DC2B3321B862BA0712A7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-unwrApp01Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED5B8D30FC6654A50AC77E39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unwrApp01UITests/Pods-unwrApp01UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE6507BA66155D0490DAD02F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-unwrApp01UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		677952081F6D96E5006202D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				677952171F6D96E5006202D3 /* ViewController.m in Sources */,
+				677952441F6D9A79006202D3 /* WelcomeViewController.m in Sources */,
 				677952141F6D96E5006202D3 /* AppDelegate.m in Sources */,
+				6779524A1F6DA446006202D3 /* FoodInformationViewController.m in Sources */,
+				677952471F6D9A88006202D3 /* DietaryRestrictionViewController.m in Sources */,
 				677952111F6D96E5006202D3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,8 +671,11 @@
 		};
 		6779523A1F6D96E5006202D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52B9EEBF0A9D98C2B6D3C66 /* Pods-unwrApp01.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_ENTITLEMENTS = unwrApp01/unwrApp01.entitlements;
 				DEVELOPMENT_TEAM = 8U439925LN;
 				INFOPLIST_FILE = unwrApp01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,8 +686,11 @@
 		};
 		6779523B1F6D96E5006202D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2BFACC5472E57185893788 /* Pods-unwrApp01.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_ENTITLEMENTS = unwrApp01/unwrApp01.entitlements;
 				DEVELOPMENT_TEAM = 8U439925LN;
 				INFOPLIST_FILE = unwrApp01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -451,6 +701,7 @@
 		};
 		6779523D1F6D96E5006202D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996E3C28D191E420775D4086 /* Pods-unwrApp01Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8U439925LN;
@@ -464,6 +715,7 @@
 		};
 		6779523E1F6D96E5006202D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08F7C5C4CDC3822CA4703BC /* Pods-unwrApp01Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8U439925LN;
@@ -477,6 +729,7 @@
 		};
 		677952401F6D96E5006202D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F9EED7166757A76E3209FA /* Pods-unwrApp01UITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8U439925LN;
 				INFOPLIST_FILE = unwrApp01UITests/Info.plist;
@@ -489,6 +742,7 @@
 		};
 		677952411F6D96E5006202D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC57A85D110CA763262B270 /* Pods-unwrApp01UITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8U439925LN;
 				INFOPLIST_FILE = unwrApp01UITests/Info.plist;
@@ -518,6 +772,7 @@
 				6779523B1F6D96E5006202D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6779523C1F6D96E5006202D3 /* Build configuration list for PBXNativeTarget "unwrApp01Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +781,7 @@
 				6779523E1F6D96E5006202D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6779523F1F6D96E5006202D3 /* Build configuration list for PBXNativeTarget "unwrApp01UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +790,7 @@
 				677952411F6D96E5006202D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
